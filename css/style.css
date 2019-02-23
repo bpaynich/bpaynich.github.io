@@ -1,1 +1,57 @@
 # Empty CSS file for your own CSS
+
+h1{
+    color:rgb(29, 201, 231);
+    text-decoration: none;
+    background-color: rgb(14, 163, 173);
+}
+
+a.intro {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(14, 163, 173);
+}
+
+h2 {
+    color:rgb(14, 163, 173);
+}
+
+h3 { 
+    color:rgb(14, 163, 173);
+}
+
+body.back{
+    background-color:rgb(207, 201, 201);   
+}
+
+body.small{
+    background-color: rgb(207, 201, 201);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-top: 50px;
+    margin-bottom: 50px;
+}
+
+div.center {
+    text-align: center;
+    background-color: white;
+}
+
+ul.title {
+    background-color: white;
+}
+
+div.back {
+    background-color:rgb(207, 201, 201);
+}
+
+div.front{
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color:white;
+}
+ul.front{
+    background-color:white;
+}
