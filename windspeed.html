@@ -11,39 +11,41 @@
     <meta name="author" content="LayoutIt!">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<ul class="nav front" class="title front">
+		<li class="nav-item" class="h1">
+		<li class="nav-item" class="h1">&emsp;&emsp;</li>
+				<h1><a class="intro" href="index.html">Latitude</a> </h1>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#"></a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link disabled" href="#"></a>
+		</li>
+		<li class="nav-item dropdown ml-md-auto">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">Plots</a>
+			   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="temperature.html">Temperature</a> 
+					<a class="dropdown-item" href="humidity.html">Humidity</a> 
+					<a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+					<a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+			   </div>
+		   </li>
+		   <li>
+				   <a class="nav-link active" href="comparison.html">Comparisons</a>
+		   </li>
+		   <li>
+				   <a class="nav-link active" href="data.html">Data</a>
+		   </li>
+	</ul>
   </head>
 	
 <body class="back">
 		<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12">
-						<ul class="nav front" class="title front">
-							<li class="nav-item" class="h1">
-									<h1><a class="intro" href="index.html">Latitude</a> </h1>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#"></a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link disabled" href="#"></a>
-							</li>
-							<li class="nav-item dropdown ml-md-auto">
-									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">Plots</a>
-								   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-										<a class="dropdown-item" href="temperature.html">Temperature</a> 
-										<a class="dropdown-item" href="humidity.html">Humidity</a> 
-										<a class="dropdown-item" href="windspeed.html">Wind Speed</a>
-										<a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-								   </div>
-							   </li>
-							   <li>
-									   <a class="nav-link active" href="comparison.html">Comparisons</a>
-							   </li>
-							   <li>
-									   <a class="nav-link active" href="data.html">Data</a>
-							   </li>
-						</ul>
+
 						<br/><br/><br/>
 
 						<div class="row">
@@ -51,13 +53,11 @@
 								<br/><br/>
 								<h3>
 									Summary: Latitude vs. Windspeed
-								</h3><hr size=2><img alt="Bootstrap Image Preview"  align="left" src="./images/lat_vs_windspeed.png" />
+								</h3><hr size=2><img alt="Bootstrap Image Preview" src="./images/lat_vs_windspeed.png" />
 							  <br/><br/>
 								<p>
-									There doesn't seem to be a lot of connection between wind speed vs. latitude. There are a few locations with some gusting winds but most locations are pretty calm below 3 mph.
+									There doesn't seem to be a lot of connection between wind speed vs. latitude. There are a few locations with some gusting winds but most locations are pretty calm below 3 mph.  Since this is a snapshot of a particular day there mostlikely greater variablity at other times of the year.
 								</p>
-							</div>
-							<div class="col-md-1">
 							</div>
 							<div class="col-md-4 front">
 								<br/><br/>

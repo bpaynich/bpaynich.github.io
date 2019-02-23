@@ -11,39 +11,41 @@
     <meta name="author" content="LayoutIt!">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<ul class="nav front" class="title ">
+		<li class="nav-item" class="h1">&emsp;&emsp;</li>
+		<li class="nav-item" class="h1">
+				<h1><a class="intro" href="index.html">Latitude</a> </h1>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#"></a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link disabled" href="#"></a>
+		</li>
+		<li class="nav-item dropdown ml-md-auto">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">Plots</a>
+			   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="temperature.html">Temperature</a> 
+					<a class="dropdown-item" href="humidity.html">Humidity</a> 
+					<a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+					<a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+			   </div>
+		   </li>
+		   <li>
+				   <a class="nav-link active" href="comparison.html">Comparisons</a>
+		   </li>
+		   <li>
+				   <a class="nav-link active" href="data.html">Data</a>
+		   </li>
+	</ul>
   </head>
 	
 <body class="back ">
 		<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12">
-						<ul class="nav front" class="title ">
-							<li class="nav-item" class="h1">
-									<h1><a class="intro" href="index.html">Latitude</a> </h1>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#"></a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link disabled" href="#"></a>
-							</li>
-							<li class="nav-item dropdown ml-md-auto">
-									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">Plots</a>
-								   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-										<a class="dropdown-item" href="temperature.html">Temperature</a> 
-										<a class="dropdown-item" href="humidity.html">Humidity</a> 
-										<a class="dropdown-item" href="windspeed.html">Wind Speed</a>
-										<a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-								   </div>
-							   </li>
-							   <li>
-									   <a class="nav-link active" href="comparison.html">Comparisons</a>
-							   </li>
-							   <li>
-									   <a class="nav-link active" href="data.html">Data</a>
-							   </li>
-						</ul>
+
 						<br/><br/><br/>
 
 						<div class="row">
@@ -52,13 +54,11 @@
 								<h3>
 									Summary: Latitude vs. Max Temperature
 								</h3><hr size=2>
-								<img alt="Bootstrap Image Preview"  align="left" src="images/lat_vs_max_temp.png" />
+								<img alt="Bootstrap Image Preview" src="images/lat_vs_max_temp.png" />
 							  <br/><br/>
 								<p>
-									As you move up in latitude the temperature appears to gradually trend colder. This would make sense as you move towards the north pole.
+									As you move up in latitude the temperature appears to gradually trend colder. This would make sense as you move towards the north pole. Since most of the land mass is in the northern hemisphere there might be more data availble at the higher latitudes vs. the southern hemisphere latitudes.  
 								</p>
-							</div>
-							<div class="col-md-1">
 							</div>
 							<div class="col-md-4 front">
 								<br/><br/>
